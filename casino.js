@@ -67,8 +67,6 @@ const DEFAULT_SYMBOLS = ['🍒', '🍋', '🍊', '🍉', '⭐', '🔔', '🍎', 
 const SCATTER_SYMBOL = '💰'
 const WILD_SYMBOL = '🃏'
 
-const SEED = 5345522312312;
-
 const PAYLINES = require('./paylines.js').PAYLINES;
 const MersenneTwister = require('mersennetwister');
 const readline = require('readline');
