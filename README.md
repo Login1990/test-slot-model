@@ -16,6 +16,7 @@ npm install
 node casino.js
 ```
 Press `ENTER` to spin, press `q + ENTER` to quit if you don't like `CTRL + C` or `CMD + C`
+
 3. To mass spin:
 ```node
 node simulate_rtp.js
