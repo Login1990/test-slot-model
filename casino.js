@@ -159,8 +159,8 @@ function cash_paylines(win_list, LOG_PAYOUT = true) {
 
 function extractPaylineSymbols(paylineMask) { // extract symbols from SCREEN based on payline mask
     const symbols = [];
-    for (let y = 0; y < SCREEN.length; y++) {
-        for (let x = 0; x < SCREEN[y].length; x++) {
+    for (let x = 0; x < SCREEN[0].length; x++) {
+        for (let y = 0; y < SCREEN.length; y++) {
             if (paylineMask[y][x] === 1) {
                 symbols.push(SCREEN[y][x]);
             }
